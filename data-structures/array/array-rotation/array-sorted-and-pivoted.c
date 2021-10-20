@@ -20,13 +20,13 @@ int pivotedBinarySearch(int arr[], int n, int key)
 }
 
 int findPivot(int arr[], int low, int high)
-{ 
+{
     if (high < low)
         return -1;
 
     if (high == low)
         return low;
-    
+
     int mid = (low + high) / 2;
 
     if (mid < high && arr[mid] > arr[mid + 1])
@@ -59,7 +59,7 @@ int binarySearch(int arr[], int low, int high, int key)
 
 int main()
 {
-    int arr[] = { 5, 6, 7, 8, 9, 10, 1, 2, 3 };
+    int arr[] = {5, 6, 7, 8, 9, 10, 1, 2, 3};
     int n = sizeof(arr) / sizeof(arr[0]);
     int key = 10;
 
