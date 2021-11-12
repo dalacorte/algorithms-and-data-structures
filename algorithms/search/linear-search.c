@@ -10,7 +10,6 @@ int search(int arr[], int n, int x)
     return -1;
 }
 
-// Driver code
 int main(void)
 {
     int arr[] = {2, 3, 4, 10, 40};
